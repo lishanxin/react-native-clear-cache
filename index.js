@@ -1,34 +1,26 @@
 /**
  * Created by qiepeipei on 17/6/22.
  */
-'use strict';
-import React, { PropTypes, Component } from 'react';
-import {
-    DeviceEventEmitter,
-    NativeModules,
-    Platform,
-    NativeAppEventEmitter,
-    AppState
-} from 'react-native'
+import { NativeModules } from 'react-native';
 
 var ClearCacheModuleObj = NativeModules.ClearCacheModule;
 
-class clear{
+class clear {
 
-constructor () {
-}
+  constructor() {
+  }
 
-getCacheSize(callBack){
+  getCacheSize(callBack) {
 
     ClearCacheModuleObj.getCacheSize(callBack);
 
-}
+  }
 
-runClearCache(callBack){
+  runClearCache(callBack) {
 
     ClearCacheModuleObj.runClearCache(callBack);
 
-}
+  }
 
 
 }

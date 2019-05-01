@@ -1,0 +1,24 @@
+{
+  "name": "react-native-clear-cache",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-native-clear-cache"
+  ],
+  "author": "qiepeipei",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.5"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.4.4",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.4"
+  }
+}
