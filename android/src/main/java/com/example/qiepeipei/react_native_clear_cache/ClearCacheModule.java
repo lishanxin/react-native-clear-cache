@@ -4,7 +4,6 @@ package com.example.qiepeipei.react_native_clear_cache;
  * Created by qiepeipei on 2017/6/27.
  */
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.facebook.react.bridge.Arguments;
